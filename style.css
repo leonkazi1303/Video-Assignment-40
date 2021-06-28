@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.mid-content {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.header-section {
+    background: #ec116d;
+    padding: 7px 0;
+}
+
+.header-section .logo {
+    width: 100px;
+    display: inline-block;
+}
+
+.header-section .logo img {
+    max-width: 100%;
+}
+
+.header-section .menu {
+    display: inline-block;
+}
+
+.header-section .menu ul {
+    text-align: center;
+}
+
+.header-section .menu ul li {
+    display: inline-block;
+    line-height: 67px;
+}
+
+.header-section .menu ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.banner-section {
+    background-image: url(./img/Banner.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.banner-section .banner-item {
+    text-align: center;
+    padding-top: 233px;
+    color: white;
+}
+
+.banner-section .banner-item .banner-logo {
+    width: 220px;
+    height: auto;
+    margin: auto;
+}
+
+.banner-section .banner-item .banner-logo img {
+    max-width: 100%;
+}
+
+.banner-section .banner-item h1 {
+    font-size: 60px;
+    padding: 20px 0;
+}
+
+.banner-section .banner-item p {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.banner-section .banner-item .banner-button {}
+
+.banner-section .banner-item .banner-button a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 12px 25px;
+    border: 1px solid white;
+}
+
+.description {
+    background: #fefeff;
+}
+
+.description .hello {
+    width: 100%;
+    height: 685px;
+    margin: auto;
+    box-shadow: 25px 46px 19px #f1f2f8;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: white;
+}
+
+.description .hello .hello-image {
+    width: 35%;
+}
+
+.description .hello .hello-image img {
+    max-width: 100%;
+    height: 685px;
+}
+
+.description .hello .hello-details {
+    width: 62%;
+    margin: 50px 0;
+}
+
+.hi {
+    margin-bottom: 15px;
+}
+
+.hi h5 {
+    background: #fcc747;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.description .hello .hello-details h2 {
+    margin-bottom: 15px;
+}
+
+.description .hello .hello-details p {
+    margin-bottom: 15px;
+    line-height: 24px;
+    color: rgb(179, 179, 179);
+    font-weight: 500;
+}
+
+.description .hello .hello-details .cv {
+    margin-bottom: 45px;
+}
+
+.description .hello .hello-details .cv span {
+    display: inline-block;
+    color: rgba(133, 133, 133, 0.867);
+    font-weight: 500;
+}
+
+.description .hello .hello-details .cv p {
+    display: inline-block;
+    color: rgba(133, 133, 133, 0.867);
+    font-weight: 500;
+}
+
+.hello-button {}
+
+.hello-button a {
+    text-decoration: none;
+    color: white;
+    padding: 13px 20px;
+    background: #3243e3;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.hello-button a:hover {
+    color: black;
+    background: #fcc747;
+}
+
+.portfolio-section {}
+
+.portfolio-section h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.portfolio-list {}
+
+.portfolio-list ul {
+    text-align: left;
+    margin: 30px 0;
+}
+
+.portfolio-list ul li {
+    display: inline-block;
+}
+
+.portfolio-list ul li a {
+    color: rgba(104, 104, 104, 0.867);
+    padding-right: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.portfolio-list ul li a:hover {
+    color: #3243e3;
+}
+
+.portfolio-list ul li:nth-child(1) a {
+    color: #3243e3;
+}
+
+.portfolio-image {}
+
+.portfolio-image .image {
+    width: 32%;
+    display: inline-block;
+    padding-right: 11px;
+    padding-bottom: 11px;
+}
+
+.portfolio-image .image img {
+    max-width: 100%;
+}
+
+.skill-section {
+    padding: 80px 0;
+}
+
+.skill-section h2 {
+    margin: 40px 0;
+}
+
+.skill-section .consultancy {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.skill-section .consultancy .skil-box {
+    width: 32.2%;
+    padding: 35px 0px;
+    display: inline-block;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    box-shadow: 0 0 30px rgb(202, 202, 202);
+}
+
+.skill-section .consultancy .skil-box .skill-icon {
+    width: 20%;
+    text-align: center;
+}
+
+.skill-section .consultancy .skil-box .skill-icon i {
+    font-size: 30px;
+    color: #69e2c2;
+}
+
+.skill-section .consultancy .skil-box .skill-content {
+    width: 80%;
+}
+
+.skill-section .consultancy .skil-box .skill-content h5 {
+    margin-bottom: 15px;
+}
+
+.skill-section .consultancy .skil-box .skill-content p {
+    color: rgba(104, 104, 104, 0.867);
+    font-size: 15px;
+}
+
+.view-section {
+    background-image: url(./img/view-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.view-section .followers {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.view-section .followers .ratings {
+    width: 271px;
+    height: auto;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.view-section .followers .ratings h2 {
+    font-size: 32px;
+}
+
+.view-section .followers .ratings p {
+    font-size: 15px;
+}
+
+.education-section {
+    padding-top: 80px;
+}
+
+.education-section .education-item {
+	margin-top: 45px;
+}
+
+.education-section .education-item .content-left {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	box-sizing: border-box;
+	box-shadow: 0 0 15px #dddd;
+	padding: 36px;
+}
+.education-section .education-item .content-left .content-inner-left {
+    width: 40%;
+
+}
+.education-section .education-item .content-left .content-inner-left .year {}
+
+.education-section .education-item .content-left .content-inner-left .year p {
+    background: #ec116c;
+    color: white;
+    display: inline-block;
+}
+
+.education-section .education-item .content-left .content-inner-left h5 {
+    padding: 5px 0;
+    line-height: 20px;
+}
+
+.education-section .education-item .content-left .content-inner-left p {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.education-section .education-item .content-left .content-inner-right {
+    width: 60%;
+}
+
+.education-section .education-item .content-left .content-inner-right p {
+    line-height: 22px;
+    font-size: 15px;
+}
+
+.education-section .education-item .content-right {
+    width: 35%;
+}
+
+.education-section .education-item .content-right img {
+	max-width: 100%;
+	margin-top: -389px;
+}
